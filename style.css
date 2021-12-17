@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.D-border{
+    border: 5px solid black;
+    outline: 9px dotted #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 700px;
+    margin-top: 20%;
+}
+
+.D-border h1{
+    color: green;
+    border: green solid 2px;
+    width: 70%;
+    justify-content: center;
+    margin-top: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.D-P-border{
+    border: 5px dashed red;
+    justify-content: center;
+    overflow-y: scroll;
+    margin: 15px;
+}
+.D-border img{
+    width: 350px;
+}
