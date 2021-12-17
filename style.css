@@ -18,9 +18,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 550px;
     height: 700px;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .D-border h1{
